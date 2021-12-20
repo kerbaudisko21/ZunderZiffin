@@ -1,0 +1,207 @@
+/* header footer*/
+header, footer {
+    background-color: rgb(39, 31, 114);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    font-family: "Bebas Neue", cursive;
+  }
+  
+  .headLeft {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 3%;
+  }
+  
+  .name {
+    font-size: 30px;
+    color: white;
+  }
+  
+  .logo img {
+    width: 90px;
+    height: 75px;
+    padding: 20px;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .logo img:hover {
+    transition: 0.5s;
+    transform: rotate(180deg);
+  }
+  
+  .headRight {
+    display: flex;
+    flex-direction: row;
+    margin-right: 2%;
+  }
+  
+  header .headRight .nav-link,
+  .dropdown .dropdown-menu .dropdown-item {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 23.5px;
+    padding-left: 60px;
+    padding-right: 60px;
+    display: block;
+  }
+  
+  .headRight .nav-item:hover,
+  .dropdown-item:hover {
+    background-color: white;
+    transition: 0.6s;
+    transform: scale(1.1);
+  }
+  
+  .nav-item .nav-link:hover,
+  .dropdown .dropdown-item:hover {
+    color: rgb(39, 31, 114);
+  }
+  
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdown .dropdown-menu {
+    position: absolute;
+    background-color: rgb(71, 64, 141);
+    display: none;
+  }
+  
+  .dropdown:hover .dropdown-menu {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  footer .leftTail {
+    color: white;
+    margin-left: 2%;
+  }
+  
+  footer .rightTail {
+    font-size: 50px;
+    color: white;
+    margin-right: 2%;
+  }
+  
+  body {
+    margin: 0;
+    background-color: rgb(219, 225, 231);
+  }
+/* content */
+
+.content{
+    font-family: 'Bebas Neue', cursive;
+    margin-left: 15%;
+    margin-right: 15%;
+    color: rgb(39, 31, 114);
+}
+
+.title h1{
+
+    font-size: 50px;
+    margin-bottom: 2%;
+}
+
+.title p{
+    font-size: 35px;
+    margin-top: 0;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.profiles{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.profiles .profile{
+
+    margin: 0%;
+    padding: 8%;
+    font-size: 20px;
+    background-color:rgb(139, 144, 189);
+    width: 100px;
+    border-radius: 45px 150px;
+    font-family: 'Montserrat', sans-serif;
+    align-items: center;
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+}
+
+.profile img{
+    width: 150px;
+    border-radius: 90px;
+}
+
+.profiles .profile:hover{
+
+    background-color: white;
+    border-radius: 150px 45px;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.text{
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    margin-top: 4%;
+    justify-content: center;
+    text-align: center;
+
+}
+
+/* location */
+
+.location{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 5%;
+  margin-top: 3%;
+}
+
+.location .title{
+
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  margin-left: 20%;
+  margin-right: 20%;
+  border-radius: 20px 50px;
+}
+
+.location .locationInfo{
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5%;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgb(39, 31, 114);
+  color: white;
+  border-radius: 30px 90px;
+  padding-top: 3%;
+}
+
+.locationInfo img{
+
+  width: 250px;
+  height: 250px;
+  border-radius: 90px;
+}
+
+body{
+    margin:0px;
+    background-color:rgb(219, 225, 231);
+}

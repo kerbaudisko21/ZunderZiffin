@@ -1,0 +1,233 @@
+/* header footer */
+header, footer {
+    background-color: rgb(39, 31, 114);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    font-family: "Bebas Neue", cursive;
+  }
+  
+  .headLeft {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 3%;
+  }
+  
+  .name {
+    font-size: 30px;
+    color: white;
+  }
+  
+  .logo img {
+    width: 90px;
+    height: 75px;
+    padding: 20px;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .logo img:hover {
+    transition: 0.5s;
+    transform: rotate(180deg);
+  }
+  
+  .headRight {
+    display: flex;
+    flex-direction: row;
+    margin-right: 2%;
+  }
+  
+  header .headRight .nav-link,
+  .dropdown .dropdown-menu .dropdown-item {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 23.5px;
+    padding-left: 60px;
+    padding-right: 60px;
+    display: block;
+  }
+  
+  .headRight .nav-item:hover,
+  .dropdown-item:hover {
+    background-color: white;
+    transition: 0.6s;
+    transform: scale(1.1);
+  }
+  
+  .nav-item .nav-link:hover,
+  .dropdown .dropdown-item:hover {
+    color: rgb(39, 31, 114);
+  }
+  
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdown .dropdown-menu {
+    position: absolute;
+    background-color: rgb(71, 64, 141);
+    display: none;
+  }
+  
+  .dropdown:hover .dropdown-menu {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  footer .leftTail {
+    color: white;
+    margin-left: 2%;
+  }
+  
+  footer .rightTail {
+    font-size: 50px;
+    color: white;
+    margin-right: 2%;
+  }
+  
+  body {
+    margin: 0;
+    background-color: rgb(219, 225, 231);
+  }
+
+/* content */
+.content{
+    margin-right: 15%;
+    margin-left: 15%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.content .title h1{
+    
+    margin-bottom: 2%;
+    display: flex;
+    color:rgb(39, 31, 114);
+}
+
+.title h1, .MottoTitle{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+}
+
+.content .first{
+
+    
+    background-color: rgb(139, 144, 189);
+    padding: 5%;
+    display: flex;
+    border-radius: 45px 150px;
+    margin-bottom: 5%;
+    flex-direction: column;
+}
+
+.first .firsttitle{
+    display: flex;
+    justify-content:left;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    margin-left: 40%;
+    margin-right: 40%;
+    color: white;
+}
+
+.firsttitle:hover{
+    color:rgb(71, 64, 141);
+}
+
+.first p, .missioncontent, .visioncontent{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.motto{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(78, 85, 150);
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border-radius: 150px 45px;
+
+}
+
+.motto .MottoTitle{
+    display:flex;
+    justify-content: center;
+    margin-bottom: 2%;
+    font-size: 50px;
+    color: white;
+    
+}
+
+.motto .MottoContent{
+
+    display: flex;
+    justify-content: center;
+    background-color:white;
+    color: rgb(71, 64, 141);
+    font-family: 'Bebas Neue', cursive;
+    font-size: 35px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top:0px;
+    border-radius: 45px;
+}
+
+.motto .MottoContent:hover{
+    
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+.vimi{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.vision, .mission{
+    padding: 3%;
+    
+}
+
+.vision{
+    background-color: white;
+    border-radius: 45px 150px;
+    margin-right: 5px;
+    color:rgb(82, 92, 185);
+}
+
+.mission{
+    border-radius: 150px 45px;
+    background-color: rgb(82, 92, 185);
+    margin-left: 5%;
+    color: white;
+}
+
+.mission:hover, .vision:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.visiontitle, .missiontitle{
+    display:flex;
+    justify-content: center;
+    font-size: 50px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.visioncontent p{
+    text-align: center;
+    color: rgb(82, 92, 185);
+}
+
+.missioncontent p{
+    text-align: center;
+}

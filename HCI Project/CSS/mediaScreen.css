@@ -1,0 +1,296 @@
+@media screen and (max-width: 800px) {
+  /* header footer*/
+
+  header,
+  footer {
+    height: 150px;
+  }
+
+  .headLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2%;
+  }
+
+  .name {
+    margin-left: 20%;
+    font-size: 20px;
+    color: white;
+  }
+
+  .logo img {
+    margin-top: 30px;
+    width: 80px;
+    height: 65px;
+    padding: 5px;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .logo img:hover {
+    transition: 0.5s;
+    transform: rotate(180deg);
+  }
+
+  .headRight {
+    display: flex;
+    flex-direction: row;
+    margin-right: -3%;
+  }
+
+  header .headRight .nav-link,
+  .dropdown .dropdown-menu .dropdown-item {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 23.5px;
+    padding-left: 60px;
+    padding-right: 60px;
+    display: block;
+  }
+
+  .headRight .nav-item:hover,
+  .dropdown-item:hover {
+    background-color: white;
+    transition: 0.6s;
+    transform: scale(1.1);
+  }
+
+  .nav-item .nav-link:hover,
+  .dropdown .dropdown-item:hover {
+    color: rgb(39, 31, 114);
+  }
+
+  .dropdown {
+    position: relative;
+  }
+
+  .dropdown .dropdown-menu {
+    position: absolute;
+    background-color: rgb(71, 64, 141);
+    display: none;
+  }
+
+  .dropdown:hover .dropdown-menu {
+    display: flex;
+    flex-direction: column;
+  }
+
+  footer .leftTail {
+    color: white;
+    margin-left: 2%;
+  }
+
+  footer .rightTail {
+    font-size: 50px;
+    color: white;
+    margin-right: 2%;
+  }
+
+  body {
+    margin: 0;
+    background-color: rgb(219, 225, 231);
+  }
+  /* image slider */
+
+  .content {
+    font-family: "Bebas Neue", cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #salesHeading {
+    font-size: 50px;
+    background-color: rgb(117, 108, 199);
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color: white;
+    border-radius: 60px 25px;
+  }
+
+  .Container {
+    background-color: rgb(139, 144, 189);
+    width: 60%;
+    height: 20%;
+    border-radius: 45px 150px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #leftBtn,
+  #rightBtn {
+    display: inline-block;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    font-size: 50px;
+    font-family: "Bebas Neue", cursive;
+    width: 50px;
+    height: 80px;
+    vertical-align: middle;
+    background-color: rgb(153, 153, 153);
+    margin: 0 3%;
+  }
+
+  #leftBtn {
+    border-radius: 45px 150px;
+  }
+
+  #rightBtn {
+    border-radius: 150px 45px;
+  }
+
+  #leftBtn:active,
+  #rightBtn:active {
+    opacity: 0.5;
+  }
+
+  #leftBtn:active:after,
+  #rightBtn:active:after {
+    opacity: 1;
+  }
+
+  .slider {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 5px;
+    vertical-align: middle;
+    width: 100%;
+  }
+
+  .slider div.slides {
+    position: relative;
+    width: 80%;
+  }
+
+  .slider div.slides div.slidescontent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .slidescontent img {
+    margin-left: 25%;
+    margin-top: 10%;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: center;
+  }
+
+  /* best sellers section */
+
+  #BSTitle {
+    margin-top: 1%;
+    font-size: 50px;
+    color: rgb(71, 64, 141);
+    margin-bottom: 1%;
+  }
+
+  #line1 {
+    background-color: rgb(71, 64, 141);
+    height: 20px;
+    width: 70%;
+    margin-bottom: 0%;
+    margin-top: 5%;
+  }
+
+  #line {
+    background-color: rgb(71, 64, 141);
+    height: 20px;
+    width: 70%;
+    margin-bottom: 2%;
+  }
+
+  .productProfile {
+    background-color: white;
+    padding: 5%;
+    font-size: 20px;
+    border-radius: 20px;
+    text-align: center;
+    color: rgb(78, 85, 150);
+    font-family: "Montserrat";
+    width: 30%;
+  }
+
+  .productProfile:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+  }
+
+  .productProfile img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+  }
+
+  #pDesc {
+    font-size: 18px;
+  }
+
+  .bestSellers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: rgb(78, 85, 150);
+    padding: 5%;
+    border-radius: 45px 150px;
+    width: 60%;
+  }
+
+  body {
+    margin: 0px;
+    background-color: rgb(219, 225, 231);
+  }
+}
+
+/*register*/
+.content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.RegisBox {
+  width: 45%;
+  background-color: rgb(39, 31, 114);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Bebas Neue", cursive;
+  font-size: 15px;
+  border-radius: 40px 150px;
+  flex-direction: column;
+  color: white;
+}
+
+.RegisBox h4 {
+  font-size: 30px;
+  margin: 5%;
+}
+
+.RegisBox form {
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 8%;
+}
+
+select option,
+input {
+  font-family: "Bebas Neue", cursive;
+  font-size: 10px;
+}
